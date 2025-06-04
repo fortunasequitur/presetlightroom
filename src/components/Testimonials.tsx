@@ -7,7 +7,7 @@ export function Testimonials() {
       city: 'Jakarta',
       rating: 5,
       text: 'Preset-nya bagus banget! Foto Instagram saya jadi lebih aesthetic dan professional. Worth it banget!',
-      image: 'https://instagram.fsub8-2.fna.fbcdn.net/v/t51.2885-19/476781079_645435607825900_7959270283643674206_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fsub8-2.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2QHU_b4PuJgDh1057uu7KkCCHcsyLtr25MThERlGQfkKxfoUJf0kZLWM965R043UCeU&_nc_ohc=Bb9_HJc349sQ7kNvwH1QUds&_nc_gid=PcIqDqbfdvfK565KxvjQpg&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfJg4asxEEBEthiqpxdlwVbVy9rXmNuuia1neSx_E7rI_g&oe=68459D8F&_nc_sid=22de04'
+      image: 'https://i.imgur.com/nGEyvAG.jpeg'
     },
     {
       name: 'Rizki A.',
@@ -17,11 +17,11 @@ export function Testimonials() {
       image: 'https://i.imgur.com/n2btdhm.jpeg'
     },
     {
-      name: 'Rakha P',
+      name: 'Alifia Marsyanda',
       city: 'Surabaya',
       rating: 5,
       text: 'Koleksi presetnya lengkap banget, dari vintage sampai modern semua ada. Puas banget!',
-      image: 'https://instagram.fsub8-2.fna.fbcdn.net/v/t51.2885-19/268163229_138066775273231_5969094771649786595_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fsub8-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2QGQP1LvaeFxmQjgRjM-k5pnPMbXHh5MYUT-DLy7LHEY1gH__gMp5zSWeNlbr0Fsomw&_nc_ohc=dWj4lC2WN0cQ7kNvwHpxfRL&_nc_gid=SMRB0ZgVrfs7eKfQBEAiFA&edm=ALGbJPMBAAAA&ccb=7-5&oh=00_AfK92lRaX9Lkg2LuagjGjfrJwjriHNcrAGAlKwKT9YYKKQ&oe=6845A24E&_nc_sid=7d3ac5'
+      image: 'https://i.imgur.com/Fwd5tbQ.jpeg'
     },
     {
       name: 'Rifky Susseto V C',
