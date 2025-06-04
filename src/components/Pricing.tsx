@@ -26,9 +26,7 @@ export function Pricing() {
     }
 
     // Redirect to WhatsApp for purchase
-    const message = encodeURIComponent('Halo, saya mau beli Preset Lightroom 500+ Exclusive Premium dengan harga Rp 49.000!')
-    const whatsappUrl = `https://wa.me/6285779031234?text=${message}`
-    window.open(whatsappUrl, '_blank')
+    window.open('https://wa.link/inv6bj', '_blank')
   }
 
   return (
@@ -41,7 +39,7 @@ export function Pricing() {
 
         <div className="mb-6">
           <p className="text-sm opacity-90 mb-2">Harga Spesial Hari Ini</p>
-          <p className="text-4xl font-bold animate-pulse-slow">Rp 49.000</p>
+          <p className="text-4xl font-bold animate-pulse-slow">Rp. 49.000</p>
           <p className="text-sm opacity-90 mt-1">/ Permanent</p>
         </div>
 

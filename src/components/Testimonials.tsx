@@ -3,32 +3,32 @@ import { Star } from 'lucide-react'
 export function Testimonials() {
   const testimonials = [
     {
-      name: 'Sarah M.',
+      name: 'Anindita Dewi',
       city: 'Jakarta',
       rating: 5,
       text: 'Preset-nya bagus banget! Foto Instagram saya jadi lebih aesthetic dan professional. Worth it banget!',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b789?w=60&h=60&fit=crop&crop=face'
+      image: 'https://instagram.fsub8-2.fna.fbcdn.net/v/t51.2885-19/476781079_645435607825900_7959270283643674206_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fsub8-2.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2QHU_b4PuJgDh1057uu7KkCCHcsyLtr25MThERlGQfkKxfoUJf0kZLWM965R043UCeU&_nc_ohc=Bb9_HJc349sQ7kNvwH1QUds&_nc_gid=PcIqDqbfdvfK565KxvjQpg&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfJg4asxEEBEthiqpxdlwVbVy9rXmNuuia1neSx_E7rI_g&oe=68459D8F&_nc_sid=22de04'
     },
     {
       name: 'Rizki A.',
       city: 'Bandung',
       rating: 5,
       text: 'Gampang banget dipakenya, tinggal 1 klik langsung jadi keren. Recommended untuk content creator!',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face'
+      image: 'https://i.imgur.com/n2btdhm.jpeg'
     },
     {
-      name: 'Maya L.',
+      name: 'Rakha P',
       city: 'Surabaya',
       rating: 5,
       text: 'Koleksi presetnya lengkap banget, dari vintage sampai modern semua ada. Puas banget!',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face'
+      image: 'https://instagram.fsub8-2.fna.fbcdn.net/v/t51.2885-19/268163229_138066775273231_5969094771649786595_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fsub8-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2QGQP1LvaeFxmQjgRjM-k5pnPMbXHh5MYUT-DLy7LHEY1gH__gMp5zSWeNlbr0Fsomw&_nc_ohc=dWj4lC2WN0cQ7kNvwHpxfRL&_nc_gid=SMRB0ZgVrfs7eKfQBEAiFA&edm=ALGbJPMBAAAA&ccb=7-5&oh=00_AfK92lRaX9Lkg2LuagjGjfrJwjriHNcrAGAlKwKT9YYKKQ&oe=6845A24E&_nc_sid=7d3ac5'
     },
     {
-      name: 'Dani P.',
+      name: 'Rifky Susseto V C',
       city: 'Yogyakarta',
       rating: 5,
       text: 'Harga segini dapet 500+ preset premium? Murah banget! File-nya juga berkualitas tinggi.',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face'
+      image: 'https://i.imgur.com/DGCa7fa.jpeg'
     }
   ]
 

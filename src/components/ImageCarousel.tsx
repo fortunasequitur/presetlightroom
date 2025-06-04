@@ -2,33 +2,32 @@
 
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
+import type { StaticImageData } from 'next/image'
 
-export function ImageCarousel() {
+export interface ImageCarouselProps {
+  images: { id: string; url: string }[];
+  title: string;
+  autoPlay?: boolean;
+}
+
+export function ImageCarousel({ images, title, autoPlay = true }: ImageCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
-  const images = [
-    { id: 'preset-1', url: 'https://i.imgur.com/hCRLV4H.jpeg' },
-    { id: 'preset-2', url: 'https://i.imgur.com/y3W7nYK.jpeg' },
-    { id: 'preset-3', url: 'https://i.imgur.com/Ft4rGpY.jpeg' },
-    { id: 'preset-4', url: 'https://i.imgur.com/3LdTOhI.jpeg' },
-    { id: 'preset-5', url: 'https://i.imgur.com/k82k856.jpeg' },
-    { id: 'preset-6', url: 'https://i.imgur.com/XpsEglO.jpeg' }
-  ]
-
   useEffect(() => {
+    if (!autoPlay) return;
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length)
     }, 3000)
     return () => clearInterval(timer)
-  }, [])
+  }, [images.length, autoPlay])
 
   return (
     <div className="mb-8">
       <h2 className="text-lg font-semibold text-center mb-4 text-gray-800">
-        Contoh Hasil Preset
+        {title}
       </h2>
 
-      <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
+      <div className="relative w-full max-w-xs aspect-square rounded-xl overflow-hidden shadow-lg mx-auto">
         <Image
           src={images[currentIndex].url}
           alt={`Contoh preset ${currentIndex + 1}`}

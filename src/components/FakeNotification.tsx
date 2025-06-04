@@ -13,7 +13,17 @@ export function FakeNotification() {
     { name: 'Sari', city: 'Bandung' },
     { name: 'Riko', city: 'Medan' },
     { name: 'Maya', city: 'Yogyakarta' },
-    { name: 'Doni', city: 'Bali' }
+    { name: 'Doni', city: 'Bali' },
+    { name: 'Nadia', city: 'Semarang' },
+    { name: 'Lestari', city: 'Makassar' },
+    { name: 'Nurul', city: 'Palembang' },
+    { name: 'Zakiah', city: 'Padang' },
+    { name: 'Jamilah', city: 'Malang' },
+    { name: 'Yohanes', city: 'Pontianak' },
+    { name: 'Wahyuni', city: 'Balikpapan' },
+    { name: 'Aminah', city: 'Batam' },
+    { name: 'Mahmud', city: 'Solo' },
+    { name: 'Susila', city: 'Cirebon' }
   ]
 
   useEffect(() => {

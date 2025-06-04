@@ -4,9 +4,7 @@ import { MessageCircle } from 'lucide-react'
 
 export function FloatingWhatsApp() {
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent('Halo, saya tertarik dengan Preset Lightroom 500+ Exclusive Premium!')
-    const whatsappUrl = `https://wa.me/6285779031234?text=${message}`
-    window.open(whatsappUrl, '_blank')
+    window.open('https://wa.link/inv6bj', '_blank')
 
     // Track conversion for analytics
     if (typeof window !== 'undefined') {
